@@ -1,0 +1,9 @@
+from tree import Tree
+from linkedlist import Node
+
+head = Node()
+cur = head
+for i in xrange(100000):
+    node = Node(i)
+    cur.next = node
+    

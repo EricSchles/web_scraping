@@ -1,0 +1,5 @@
+import requests
+
+#Example 1
+
+r = requests.get("http://104.131.203.11:12000/get_data")
